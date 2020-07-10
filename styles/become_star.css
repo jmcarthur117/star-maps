@@ -1,0 +1,43 @@
+.topnav {
+  background-color: #00000000;
+  overflow: hidden;
+  font-family: 'Oswald',sans-serif;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgba(255, 255, 255, 0.137);
+  color: rgb(255, 255, 255);
+}
+
+.topnav a.active {
+  background-color: #00000000;
+  color: white;
+}
+
+body {
+  background-image: url(https://thumbs.gfycat.com/FeistyJaggedBuffalo-size_restricted.gif);
+  background-size: cover;
+  margin: 0 auto;
+  text-align: center;
+  width: 80%;
+}
+
+h1 {
+  color: #FDB813;
+  text-align: center;
+  font-family: 'Oswald',sans-serif;
+}
+p {
+  color: white;
+  text-align: center;
+  font-family: monospace;
+}

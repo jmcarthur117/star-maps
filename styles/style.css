@@ -1,0 +1,80 @@
+.topnav {
+  background-color: #00000000;
+  overflow: hidden;
+  font-family: 'Oswald',sans-serif;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgba(255, 255, 255, 0.137);
+  color: rgb(255, 255, 255);
+}
+
+.topnav a.active {
+  background-color: #00000000;
+  color: white;
+}
+
+body {
+  background-image: url(https://thumbs.gfycat.com/FeistyJaggedBuffalo-size_restricted.gif);
+  background-repeat:repeat;
+}
+h1 {
+  color: #FDB813;
+  text-align: center;
+  font-family: 'Oswald',sans-serif;
+}
+h2{
+  color: #FDB813;
+  text-align: center;
+  font-family: 'Oswald',sans-serif;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 5%;
+}
+p {
+  color: white;
+  text-align: center;
+  font-family: monospace;
+}
+.iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+   }
+iframe {
+  display: block;
+  width: 800px;
+  height: 400px;
+  margin: 0 auto;
+  border: 0;
+}
+.row { 
+  display: flex;
+}
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+h4 {
+  color: white;
+  font-family: monospace;
+}
+.maps {
+  width: 500;
+  height: 350; 
+  border: 0;
+}

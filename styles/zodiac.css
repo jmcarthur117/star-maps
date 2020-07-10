@@ -1,0 +1,128 @@
+body {
+  background-image: url(https://thumbs.gfycat.com/FeistyJaggedBuffalo-size_restricted.gif);
+  background-repeat: repeat;
+  color: white;
+}
+
+/*grid*/
+.container{
+  display: grid;
+  grid-template:
+  'topnav topnav topnav topnav'
+  'page-title page-title page-title page-title'
+  'aquila aquila canis canis'
+  'aquila aquila canis canis'
+  'ursa ursa camel camel'
+  'ursa ursa camel camel'
+  'peg peg and and'
+  'peg peg and and'
+  'orion orion cas cas'
+  'orion orion cas cas'
+  'ar ar taur taur'
+  'ar ar taur taur'
+  'gem gem can can'
+  'gem gem can can'
+  'le le vir vir'
+  'le le vir vir'
+  'lib lib scorp scorp'
+  'lib lib scorp scorp'
+  'sag sag cap cap'
+  'sag sag cap cap '
+  'aquar aquar pis pis'
+  'aquar aquar pis pis';
+  grid-gap: 1.5rem;
+}
+.topnav{
+  grid-area: topnav;
+  font-family: 'Oswald',sans-serif;
+}
+.pg-title{
+  grid-area: page-title;
+  text-align: center;
+  font-family: 'Oswald',sans-serif;
+  font-size: 1.5rem;
+}
+.z-box{
+  border: white double 6px;
+  margin: 0 auto;
+}
+.z_name{
+  text-align: center;
+}
+.const{
+  width: 50%;
+  /*filter: grayscale(100%);*/
+  display: block;
+  margin: 0 auto;
+}
+
+.descp{
+padding-left: 1rem;
+font-family: 'Monospace',sans-serif;
+}
+
+/*constalletioin assignments*/
+/*animals*/
+.animal1{
+  grid-area: aquila;
+}
+.animal2{
+  grid-area: canis;
+}
+.animal3{
+  grid-area: ursa;
+}
+.animal4{
+  grid-area: camel;
+}
+/*animals*/
+.known1{
+  grid-area: peg;
+}
+.known2{
+  grid-area: and;
+}
+.known3{
+  grid-area: orion;
+}
+.known4{
+  grid-area: cas;
+}
+/*zodiac*/
+.aries{
+  grid-area: ar;
+}
+.taurus{
+  grid-area: taur;
+}
+.gemini{
+  grid-area: gem;
+}
+.cancer{
+  grid-area: can;
+}
+.leo{
+  grid-area: le;
+}
+.virgo{
+  grid-area: vir;
+}
+.libra{
+  grid-area: lib;
+}
+.scorpio{
+  grid-area: scorp;
+}
+.sagittarius{
+  grid-area: sag;
+}
+.capricorn{
+  grid-area: cap;
+}
+.aquarius{
+  grid-area: aquar;
+}
+.pisces{
+  grid-area: pis;
+}
+
